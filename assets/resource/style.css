@@ -1,0 +1,449 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  #sakumlapa {
+    position: relative;
+    width: 320px;
+    background: #FFFFFF;
+  }
+  #sakumlapa .menu {
+    display: none;
+  }
+  #sakumlapa .group-10 {
+    height: 81.09px;
+  }
+  #sakumlapa .group-10 .rectangle {
+    width: 90%;
+    padding: 0 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 51.72px;
+    top: -9px;
+    background: #FFFFFF;
+  }
+  #sakumlapa .group-10 .rectangle .logo-icon {
+    width: 78px;
+    height: 72px;
+    left: 20px;
+    background: url(.png);
+  }
+  #sakumlapa .group-10 .rectangle .burger {
+    width: 15px;
+    height: 15px;
+    left: 285px;
+    top: 18px;
+  }
+  #sakumlapa .frame {
+    width: 100%;
+    height: 19.62px;
+  }
+  #sakumlapa .frame .nav-bottom {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0.46%;
+    background: black;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    z-index: 2;
+  }
+  #sakumlapa .group-2 {
+    margin-top: -1em;
+    -webkit-filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+            filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+  }
+  #sakumlapa .group-2 .sparkle-video {
+    width: 320px;
+    height: 169px;
+    left: 0px;
+    top: 49px;
+    background: url(.png);
+    z-index: 1;
+  }
+  #sakumlapa .group-2 .playButton {
+    top: 1px;
+    z-index: 2;
+  }
+  #sakumlapa .group-2 .playButton .vector-play {
+    position: absolute;
+    width: 50px;
+    height: 48.26px;
+    left: 135px;
+    top: 110.37px;
+    z-index: 2;
+  }
+  #sakumlapa .group-2 .playButton .ellipse-5 {
+    position: absolute;
+    width: 46.51px;
+    height: 46.51px;
+    left: 136.74px;
+    top: 111.53px;
+    z-index: 1;
+  }
+  #sakumlapa .text-container {
+    padding: 3em 1em;
+  }
+  #sakumlapa .text-container p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #2F4858;
+  }
+  #sakumlapa .photo-container {
+    position: relative;
+    width: 100%;
+  }
+  #sakumlapa .photo-container .inner-photo-container {
+    bottom: 0;
+  }
+  #sakumlapa .photo-container .ripped {
+    margin-bottom: -0.7em;
+    width: 100%;
+    position: absolute;
+  }
+  #sakumlapa .photo-container .meita-alina-photo {
+    float: left;
+  }
+  #sakumlapa .photo-container .meita-alina-photo .meita {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 136px;
+    height: 82px;
+    background: url(.jpg);
+  }
+  #sakumlapa .photo-container .meita-alina-photo .alina {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 136px;
+    height: 85px;
+  }
+  #sakumlapa .photo-container .anda-photo {
+    float: right;
+  }
+  #sakumlapa .photo-container .anda-photo .anda {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 184px;
+    height: 174px;
+  }
+  #sakumlapa .photo-container .inner-photo-container-two .zanda {
+    float: left;
+    width: 168px;
+    height: 183px;
+    left: 0px;
+    top: 676px;
+  }
+  #sakumlapa .photo-container .inner-photo-container-two .sibilla {
+    float: right;
+    height: 183px;
+    left: 168px;
+    top: 676px;
+  }
+  #sakumlapa .photo-container .ripped-second {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 21.5em;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+  #sakumlapa .clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  #sakumlapa .container-dreams {
+    position: relative;
+    margin: 5em 0;
+    text-align: center;
+  }
+  #sakumlapa .container-dreams .inner-container-dreams {
+    padding: 1em;
+  }
+  #sakumlapa .container-dreams .inner-container-dreams h1 {
+    margin-bottom: 2em;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2F4858;
+  }
+  #sakumlapa .container-dreams .inner-container-dreams .button {
+    display: table-cell;
+    vertical-align: middle;
+    width: 233px;
+    height: 50px;
+    text-decoration: none;
+    padding: 10px 2em;
+    border-radius: 2em;
+    color: #FFFFFF;
+    background: #ffa800;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #sakumlapa .user-input {
+    margin: 10em 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2F4858;
+  }
+  #sakumlapa .user-input h1 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F4858;
+  }
+  #sakumlapa .user-input .user-submit {
+    padding: 1em 0;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input {
+    width: 280px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #dddddd;
+    background: rgba(196, 196, 196, 0.4);
+    outline: none;
+    -webkit-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input::-webkit-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input:-ms-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input::-ms-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input_big {
+    height: 150px;
+    width: 280px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #dddddd;
+    background: rgba(196, 196, 196, 0.4);
+    outline: none;
+    -webkit-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input_big::-webkit-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    vertical-align: top;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input_big:-ms-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    vertical-align: top;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input_big::-ms-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    vertical-align: top;
+  }
+  #sakumlapa .user-input .user-submit .login-form__input_big::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    vertical-align: top;
+  }
+  #sakumlapa .user-input .user-submit .explain-text {
+    margin: 0 1em;
+    text-align: left;
+    font-weight: bold;
+  }
+  #sakumlapa .user-input .user-submit .checkbox-form {
+    margin-top: 1em;
+    margin-left: -2em;
+  }
+  #sakumlapa .user-input .user-submit .checkbox-form .login-from__checkbox {
+    vertical-align: top;
+    background: #E7E7E7;
+    border-radius: 3px;
+  }
+  #sakumlapa .user-input .user-submit .checkbox-form .checkbox-label {
+    display: inline-block;
+    width: 243px;
+    margin-left: 1em;
+    text-align: left;
+    font-weight: bold;
+  }
+  #sakumlapa .user-input .user-submit .btn-send {
+    margin-top: 2em;
+    width: 140px;
+    height: 50px;
+    text-decoration: none;
+    padding: 10px 2em;
+    border: #ffa800;
+    border-radius: 2em;
+    color: #FFFFFF;
+    background: #ffa800;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #sakumlapa .footer .inner-container-first {
+    background-image: url(/assets/img/oranzs.svg);
+    z-index: 1;
+  }
+  #sakumlapa .footer .inner-container-first .inner-first-content {
+    padding: 3em 1.5em 9em;
+  }
+  #sakumlapa .footer .inner-container-first .inner-first-content h3 {
+    margin-bottom: 2em;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F4858;
+  }
+  #sakumlapa .footer .inner-container-first .inner-first-content .inner-first-imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sakumlapa .footer .inner-container-first .inner-first-content .inner-first-imgs img {
+    text-align: left;
+  }
+  #sakumlapa .footer .inner-container-second {
+    background-image: url(/assets/img/footer.png);
+    z-index: 2;
+  }
+  #sakumlapa .footer .inner-container-second .inner-second-content {
+    margin-top: -2em;
+    padding: 1.5em;
+  }
+  #sakumlapa .footer .inner-container-second .inner-second-content .footer-logo {
+    padding: 30px 0 0;
+    background: url(.png);
+  }
+  #sakumlapa .footer .inner-container-second .inner-second-content h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  #sakumlapa .footer .inner-container-second .inner-second-content p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  #sakumlapa .footer .inner-container-second .inner-second-content .bold {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  #sakumlapa .footer .inner-container-second .inner-second-content .footer-links {
+    padding-top: 20px;
+  }
+  #sakumlapa .footer .inner-container-second .inner-second-content .footer-links .footer-link {
+    padding: 0 1em;
+    fill: #FFFFFF;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  #sakumlapa {
+    position: relative;
+    width: 1366px;
+    height: 3651px;
+    background: #FFFFFF;
+  }
+}
+/*# sourceMappingURL=style.css.map */
