@@ -2,21 +2,80 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
-  height: 100vh;
-  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 768px) {
   #sakumlapa {
     position: relative;
+    overflow-x: hidden;
     width: 320px;
     background: #FFFFFF;
   }
   #sakumlapa .menu {
-    display: none;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
   }
-  #sakumlapa .group-10 {
-    height: 81.09px;
+  #sakumlapa .menu li {
+    list-style: none;
+    padding: 1em 1em;
+  }
+  #sakumlapa .menu a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+  }
+  #sakumlapa .menu a:hover {
+    font-weight: 600;
+    border-bottom: 3px solid #ffa800;
+    padding-bottom: 3px;
+  }
+  #sakumlapa .menu .languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0;
+  }
+  #sakumlapa .menu .languages a {
+    font-weight: 700;
+  }
+  #sakumlapa .menu .menu-items {
+    padding: 0;
+    text-align: center;
+  }
+  #sakumlapa .menu-active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    overflow-y: hidden;
   }
   #sakumlapa .group-10 .rectangle {
     width: 90%;
@@ -41,16 +100,20 @@ body {
     background: url(.png);
   }
   #sakumlapa .group-10 .rectangle .burger {
+    display: block;
     width: 15px;
     height: 15px;
     left: 285px;
     top: 18px;
   }
-  #sakumlapa .frame {
+  #sakumlapa .video {
+    z-index: 1;
+  }
+  #sakumlapa .video .frame {
     width: 100%;
     height: 19.62px;
   }
-  #sakumlapa .frame .nav-bottom {
+  #sakumlapa .video .frame .nav-bottom {
     left: 0%;
     right: 0%;
     top: 0%;
@@ -60,12 +123,12 @@ body {
             transform: rotate(-180deg);
     z-index: 2;
   }
-  #sakumlapa .group-2 {
+  #sakumlapa .video .group-2 {
     margin-top: -1em;
     -webkit-filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
             filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
   }
-  #sakumlapa .group-2 .sparkle-video {
+  #sakumlapa .video .group-2 .sparkle-video {
     width: 320px;
     height: 169px;
     left: 0px;
@@ -73,11 +136,11 @@ body {
     background: url(.png);
     z-index: 1;
   }
-  #sakumlapa .group-2 .playButton {
+  #sakumlapa .video .group-2 .playButton {
     top: 1px;
     z-index: 2;
   }
-  #sakumlapa .group-2 .playButton .vector-play {
+  #sakumlapa .video .group-2 .playButton .vector-play {
     position: absolute;
     width: 50px;
     height: 48.26px;
@@ -85,7 +148,7 @@ body {
     top: 110.37px;
     z-index: 2;
   }
-  #sakumlapa .group-2 .playButton .ellipse-5 {
+  #sakumlapa .video .group-2 .playButton .ellipse-5 {
     position: absolute;
     width: 46.51px;
     height: 46.51px;
@@ -435,15 +498,6 @@ body {
   #sakumlapa .footer .inner-container-second .inner-second-content .footer-links .footer-link {
     padding: 0 1em;
     fill: #FFFFFF;
-  }
-}
-
-@media only screen and (min-width: 1366px) {
-  #sakumlapa {
-    position: relative;
-    width: 1366px;
-    height: 3651px;
-    background: #FFFFFF;
   }
 }
 /*# sourceMappingURL=style.css.map */

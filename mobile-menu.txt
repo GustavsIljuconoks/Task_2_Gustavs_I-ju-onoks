@@ -1,0 +1,28 @@
+.menu {
+            position: absolute;
+            right: 0;
+            background-color: #2F4858;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            transform: translateX(100%);   
+        }
+
+.menu-active {
+                transform: translateX(0%);
+            }
+
+---------------------------
+js
+
+const navSlide = () => {
+	const burger = document.querySelector(".burger");
+	const nav = document.querySelector('.menu');
+
+	burger.addEventListener('click',() => {
+		nav.classList.toggle('menu-active');
+
+});
+
+navSlide();
