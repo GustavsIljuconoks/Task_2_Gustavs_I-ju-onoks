@@ -1,0 +1,51 @@
+$letterColorWhite: #FFFFFF;
+$letterColorOrange: #ffa800;
+$letterColorGrey: #2F4858;
+$letterColorBlack: #000000;
+$letterColorBorder: #dddddd;
+@mixin aFonts($fontSize, $lineHeight) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: null;
+    line-height: null;
+}
+
+@mixin FlexCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin footerText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: $letterColorWhite;
+}
+
+@mixin footerTextContainer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: $letterColorWhite;
+}
+
+@mixin h1Fonts {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: $letterColorGrey;
+}

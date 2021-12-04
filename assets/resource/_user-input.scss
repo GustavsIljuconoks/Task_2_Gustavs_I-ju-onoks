@@ -1,0 +1,146 @@
+.user-input {
+    margin: 10em 0;
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2F4858;
+    @include footerText();
+    h1 {
+        @include h1Fonts();
+    }
+    .user-submit {
+        padding: 1em 0;
+        .login-form__input {
+            display: block;
+            margin: auto;
+            width: 280px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            border: 2px solid #dddddd;
+            background: rgba(196, 196, 196, 0.4);
+            outline: none;
+            -webkit-transition: border-color 0.5s;
+            transition: border-color 0.5s;
+        }
+        .login-form__input::placeholder {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: left;
+            text-decoration: none;
+            color: #000000;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        .login-form__input_big {
+            display: block;
+            margin: auto;
+            height: 150px;
+            width: 280px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            border: 2px solid #dddddd;
+            background: rgba(196, 196, 196, 0.4);
+            outline: none;
+            transition: border-color 0.5s;
+        }
+        .login-form__input_big::placeholder {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.015em;
+            color: $letterColorGrey;
+            vertical-align: top;
+        }
+        .explain-text {
+            margin: 0 1em;
+            text-align: left;
+            font-weight: bold;
+            color: $letterColorGrey;
+        }
+        .checkbox-form {
+            display: block;
+            margin: 1em 0.7em;
+            color: $letterColorGrey;
+            .login-from__checkbox {
+                vertical-align: top;
+                background: $letterColorWhite;
+                border-radius: 3px;
+            }
+            .checkbox-label {
+                display: inline-block;
+                width: 243px;
+                margin-left: 1em;
+                text-align: left;
+                font-weight: bold;
+            }
+        }
+        .btn-send {
+            display: block;
+            margin: auto;
+            margin-top: 3em;
+            width: 140px;
+            height: 50px;
+            text-decoration: none;
+            padding: 10px 2em;
+            border: $letterColorOrange;
+            border-radius: 2em;
+            color: $letterColorWhite;
+            background: $letterColorOrange;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .user-input {
+        margin: 40em 0;
+        .user-submit {
+            padding: 1em 20em;
+            margin: auto;
+            width: 612px;
+            text-align: center;
+            // .login-form__input {
+            //     margin-right: 1em;
+            // }
+            .name {
+                float: left;
+                width: 269px;
+                // width: 50%;
+            }
+            .email {
+                float: right;
+                width: 269px;
+                // width: 50%;
+            }
+            .number {
+                width: 588px;
+            }
+            .login-form__input_big {
+                width: 588px;
+            }
+            .checkbox-form {
+                margin: 2em 1.5em 0 0;
+                text-align: left;
+                .checkbox-label {
+                    margin: 0 2em 0 2em;
+                    width: 572px;
+                    top: 0%;
+                }
+            }
+        }
+    }
+}

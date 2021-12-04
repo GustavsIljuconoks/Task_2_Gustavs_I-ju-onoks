@@ -1,0 +1,165 @@
+.photo-container {
+    position: relative;
+    width: 100%;
+    .inner-photo-container {
+        bottom: 0;
+    }
+    .ripped {
+        margin-bottom: -0.7em;
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        left: 0;
+    }
+    .meita-alina-photo {
+        float: left;
+        // meita photos
+        .meita-mobile {
+            display: block;
+            margin: 0;
+            padding: 0;
+            width: 136px;
+            height: 82px;
+            background: url(.jpg);
+        }
+        .meita-desktop {
+            display: none;
+        }
+        // alina photos
+        .alina-mobile {
+            display: block;
+            margin: 0;
+            padding: 0;
+            width: 136px;
+            height: 85px;
+        }
+        .alina-dekstop {
+            display: none;
+        }
+    }
+    .anda-photo {
+        float: right;
+        // anda photos
+        .anda-mobile {
+            display: block;
+            margin: 0;
+            padding: 0;
+            width: 184px;
+            height: 174px;
+        }
+        .anda-desktop {
+            display: none;
+        }
+    }
+    .inner-photo-container-two {
+        // zanda photos
+        .zanda-mobile {
+            float: left;
+            width: 168px;
+            height: 183px;
+            left: 0px;
+            top: 676px
+        }
+        .zanda-desktop {
+            display: none;
+        }
+        // sibilla photos
+        .sibilla-mobile {
+            float: right;
+            height: 183px;
+            left: 168px;
+            top: 676px;
+        }
+        .sibilla-desktop {
+            display: none;
+        }
+    }
+    .ripped-second {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        margin-top: 21.5em;
+        transform: rotate( -180deg);
+    }
+}
+
+.clearfix {
+    &::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .photo-container {
+        .ripped {
+            margin-top: -1.7em;
+        }
+        .inner-photo-container {
+            float: right;
+            .meita-alina-photo {
+                float: left;
+                // meita photos
+                .meita-mobile {
+                    display: none!important
+                }
+                .meita-desktop {
+                    display: block!important;
+                    width: 298px;
+                    height: 180px;
+                }
+                // alina photos
+                .alina-mobile {
+                    display: none!important;
+                }
+                .alina-dekstop {
+                    display: block!important;
+                    width: 298px;
+                    height: 184px;
+                }
+            }
+            .anda-photo {
+                float: right;
+                // anda photos
+                .anda-mobile {
+                    display: none!important;
+                }
+                .anda-desktop {
+                    display: block!important;
+                    width: 406px;
+                    height: 383px;
+                }
+            }
+        }
+        .inner-photo-container-two {
+            float: left;
+            // zanda photos
+            .zanda-mobile {
+                display: none!important;
+            }
+            .zanda-desktop {
+                display: block!important;
+                width: 328px;
+                height: 355px;
+            }
+            // sibilla photos
+            .sibilla-mobile {
+                display: none!important;
+            }
+            .sibilla-desktop {
+                display: block!important;
+                width: 334px;
+                height: 364px;
+                position: absolute;
+                float: right;
+                left: 328px;
+                top: 0;
+            }
+        }
+        .ripped-second {
+            position: static;
+            margin-top: -83px;
+        }
+    }
+}

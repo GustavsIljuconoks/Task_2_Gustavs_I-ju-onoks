@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/resource/style.css">
+    <link rel="stylesheet" href="/assets/resource/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="/assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <title>Document</title>
 </head>
 
@@ -18,41 +19,48 @@
         <nav class="group-10">
 
             <div class="rectangle">
-                <img class="logo-icon" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/BlackLogo 3.svg">
+                <img class="logo-icon-mobile" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/BlackLogo 3.svg">
+                <img class="logo-icon-dekstop" src="/assets/img/BlackLogoDekstop.png">
 
-                <img class="burger" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/hamburger.svg">
+                <div id="burger" class="burger" function=navSlide()>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+
             </div>
 
             <menu class="menu">
                 <ul class="languages">
-                    <li>
+                    <li class="menu-item" class="lv">
                         <a href="#">LV</a>
                     </li>
-                    <li>
+                    <li class="en">
                         <a href="#">EN</a>
                     </li>
-                    <li>
+                    <li class="ru">
                         <a href="#">RU</a>
                     </li>
                 </ul>
 
                 <ul class="menu-items">
-                    <li>
+                    <li class="menu-item">
                         <a href="#">Ideja</a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">Piesaki sapni</a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">Uzņēmējiem</a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">Sapņu banka</a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">Sapņus atbalsta</a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">99 iedvesmas stāsti</a>
                     </li>
                 </ul>
@@ -63,11 +71,14 @@
 
         <div class="video">
             <div class="frame">
-                <img class="nav-bottom" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/VectorPaper.png">
+                <img class="nav-bottom-mobile" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/rippedPaper.svg">
+                <img class="nav-bottom-dekstop" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/rippedPaper.svg">
             </div>
 
             <div class="group-2">
-                <img class="sparkle-video" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Sparkle Video 1.png">
+                <img class="sparkle-video-mobile" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Sparkle Video 1.png">
+                <img class="sparkle-video-dekstop" src="/assets/img/Sparkle Video 2 big.png">
+
 
                 <div class="playButton">
                     <img class="vector-play" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/VectorPlayButton.png">
@@ -89,67 +100,76 @@
             <div class="inner-photo-container">
 
                 <div class="meita-alina-photo">
-                    <img class="meita" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Brinuma_meita-15.png" alt="">
-                    <img class="alina" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Alina_1 1.png" alt="">
+                    <img class="meita-mobile" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Brinuma_meita-15.png">
+                    <img class="meita-desktop" src="/assets/img/Brinuma_meita-15-dekstop.png">
+
+                    <img class="alina-mobile" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Alina_1 1.png">
+                    <img class="alina-dekstop" src="/assets/img/Alina_1 1-dekstop.png">
                 </div>
 
                 <div class="anda-photo">
-                    <img class="anda" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Anda_2 1.png" alt="">
+                    <img class="anda-mobile" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Anda_2 1.png" alt="">
+                    <img class="anda-desktop" src="/assets/img/Anda_2 1-dekstop.png">
                 </div>
             </div>
 
             <div class="inner-photo-container-two">
-                <img class="zanda" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Zanda_1.png" alt="">
-                <img class="sibilla" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Sibilla_4.png" alt="">
+                <img class="zanda-mobile" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Zanda_1.png">
+                <img class="zanda-desktop" src="/assets/img/Zanda_1-dekstop.png">
+
+                <img class="sibilla-mobile" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/Sibilla_4.png" alt="">
+                <img class="sibilla-desktop" src="/assets/img/Sibilla_4-dekstop.png">
             </div>
 
-            <img class="ripped-second" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/rippedPaper.svg" alt="">
+            <img class="ripped-second" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/rippedPaper.svg">
         </div>
 
 
-        <div class="container-dreams">
 
-            <div class="inner-container-dreams">
+
+        <div class="dreams-buttons">
+            <div class="inner-container-dreams first">
                 <h1>VĒLIES PIEPILDĪT SAVU SAPNI?</h1>
 
                 <a class="button" href="#">Sapņotājiem</a>
 
             </div>
 
-            <div class="inner-container-dreams">
+            <div class="inner-container-dreams second">
                 <h1>VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?</h1>
 
                 <a class="button" href="#">Uzņēmējiem</a>
             </div>
-
-            <div class="user-input">
-
-                <h1>SAZINĀTIES AR MUMS</h1>
-
-                <form class="user-submit">
-
-                    <input class="login-form__input" type="text" name="dc_username" placeholder="Vārds, Uzvārds*">
-
-                    <input class="login-form__input" type="email" name="dc_username" placeholder="E-pasts*">
-
-                    <input class="login-form__input" type="number" name="dc_username" placeholder="Telefons*">
-
-                    <input class="login-form__input_big" type="text" name="dc_username" placeholder="Jautājums, vai komentārs*">
-
-                    <p class="explain-text">* obligāti aizpildāmie lauki</p>
-
-
-                    <div class="checkbox-form">
-                        <input class="login-from__checkbox" id="checkbox-login" type="checkbox" name="vehicle3" value="Boat">
-                        <label class="checkbox-label" for=" checkbox-login "> Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
-                    </div>
-
-                    <button class="btn-send">Sūtīt</button>
-                </form>
-            </div>
-
-
         </div>
+
+
+        <div class="user-input">
+
+            <h1>SAZINĀTIES AR MUMS</h1>
+
+            <form class="user-submit">
+
+                <input class="login-form__input name" type="text" name="dc_username" placeholder="Vārds, Uzvārds*">
+
+                <input class="login-form__input email" type="email" name="dc_username" placeholder="E-pasts*">
+
+                <input class="login-form__input number" type="number" name="dc_username" placeholder="Telefons*">
+
+                <input class="login-form__input_big" type="text" name="dc_username" placeholder="Jautājums, vai komentārs*">
+
+                <p class="explain-text">* obligāti aizpildāmie lauki</p>
+
+
+                <div class="checkbox-form">
+                    <input class="login-from__checkbox" id="checkbox-login" type="checkbox" name="vehicle3" value="Boat">
+                    <label class="checkbox-label" for=" checkbox-login "> Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+                </div>
+
+                <button class="btn-send">Sūtīt</button>
+            </form>
+        </div>
+
+
 
         <footer class="footer ">
             <div class="inner-container-first">
@@ -168,30 +188,75 @@
 
             </div>
 
-            <div class="inner-container-second">
 
-                <div class="inner-second-content">
-                    <img class="footer-logo " src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/GoldenV2Logo Footer.svg " alt=" ">
+            <img class="footer-second-ripped" src="/assets/img/footer-second-top.svg">
 
-                    <div class="footer-text-container ">
-                        <h2>Juris Gogulis</h2>
+            <div class="inner-container-second clearfix">
 
-                        <p>juris.gogulis@sparkleheart.org</p>
-                        <p>+37126890034</p>
-                        <p>Biķernieku iela 24a - 5, LV-1006 </p>
-                        <p class="bold ">Skatīt rekvizītus </p>
+                <div class="parent-inner-content">
+                    <div class="child-inner-content">
+                        <img class="d-lg-none" src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/GoldenV2Logo Footer.svg " alt=" ">
+
+                        <img id="footer-item" class="d-none d-lg-block" src="/assets/img/fotter-logo-dekstop.png">
+
+                        <div class="footer-text-container ">
+                            <div id="footer-item" class="footer-menu">
+                                <ul class="footer-list">
+                                    <li>
+                                        <a href="#">Ideja</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Piesaki sapni</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Uzņēmējiem</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sapņu banka</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sapņus atbalsta</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Iedvesmas stāsti</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="footer-item" class="footer-bank">
+                                <p class="link-big">Biedrība SparkleHeart</p>
+                                <p class="link">Reģistrācijas nr. 40008293119</p>
+                                <p class="link">Banka: SWEDBANK A/S</p>
+                                <p class="link">LV52HABA0551047652465</p>
+
+                            </div>
+
+                            <div id="footer-item" class="footer-info">
+                                <h2>Juris Gogulis</h2>
+
+                                <p>juris.gogulis@sparkleheart.org</p>
+                                <p>+37126890034</p>
+                                <p>Biķernieku iela 24a - 5, LV-1006 </p>
+                                <p class="bold ">Skatīt rekvizītus </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="footer-links">
+                            <img class="footer-link " src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/facebookIcon.svg ">
+                            <img class="footer-link " src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/instagramIcon.svg ">
+                        </div>
+
+                        <div class="footer-text-container-second ">
+                            <p>© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+
+                        </div>
+
+                        <span class="private">Privātuma politika</span>
 
                     </div>
 
-                    <div class="footer-links">
-                        <img class="footer-link " src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/facebookIcon.svg " alt=" ">
-                        <img class="footer-link " src="https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/instagramIcon.svg " alt=" ">
-                    </div>
-
-                    <div class="footer-text-container-second ">
-                        <p>© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
-                        <p>Privātuma politika</p>
-                    </div>
                 </div>
 
             </div>

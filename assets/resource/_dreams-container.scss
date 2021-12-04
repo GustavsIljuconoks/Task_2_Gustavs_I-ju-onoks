@@ -1,0 +1,64 @@
+.inner-container-dreams {
+    padding: 1em;
+    position: relative;
+    margin: 5em 0;
+    text-align: center;
+    h1 {
+        margin-bottom: 2em;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #2F4858;
+    }
+    .button {
+        width: 233px;
+        height: 50px;
+        text-decoration: none;
+        padding: 10px 2em;
+        border-radius: 2em;
+        color: #FFFFFF;
+        background: #ffa800;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .button {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .dreams-buttons {
+        margin-bottom: 5em;
+        text-align: center;
+        .inner-container-dreams {
+            padding: 0;
+        }
+        .first {
+            width: 50%;
+            float: left;
+        }
+        .second {
+            width: 50%;
+            float: right;
+        }
+        .button {
+            width: 233px;
+            height: 50px;
+            padding: 12px 65px;
+            background-color: $letterColorOrange;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            line-height: 25px;
+        }
+    }
+}
