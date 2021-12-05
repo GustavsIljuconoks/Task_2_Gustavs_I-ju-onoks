@@ -22,7 +22,6 @@
     width: 78px;
     height: 72px;
     left: 20px;
-    background: url(.png);
   }
   .group-10 .rectangle .logo-icon-dekstop {
     display: none;
@@ -127,12 +126,12 @@
   text-align: center;
   text-decoration: none;
   color: #000000;
-  font-size: null;
-  line-height: null;
+  font-size: 0;
+  line-height: 0;
 }
 
 .menu a:hover {
-  font-weight: 600;
+  font-weight: 700;
   border-bottom: 3px solid #ffa800;
   padding-bottom: 3px;
 }
@@ -359,7 +358,6 @@
   padding: 0;
   width: 136px;
   height: 82px;
-  background: url(.jpg);
 }
 
 .photo-container .meita-alina-photo .meita-desktop {
@@ -463,6 +461,7 @@
   }
   .photo-container .inner-photo-container .anda-photo .anda-mobile {
     display: none !important;
+    height: 167px;
   }
   .photo-container .inner-photo-container .anda-photo .anda-desktop {
     display: block !important;
@@ -680,45 +679,53 @@
 .user-input .user-submit .login-form__input_big::-webkit-input-placeholder {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
   font-size: 14px;
   line-height: 17px;
-  letter-spacing: -0.015em;
-  color: #2F4858;
-  vertical-align: top;
 }
 
 .user-input .user-submit .login-form__input_big:-ms-input-placeholder {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
   font-size: 14px;
   line-height: 17px;
-  letter-spacing: -0.015em;
-  color: #2F4858;
-  vertical-align: top;
 }
 
 .user-input .user-submit .login-form__input_big::-ms-input-placeholder {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
   font-size: 14px;
   line-height: 17px;
-  letter-spacing: -0.015em;
-  color: #2F4858;
-  vertical-align: top;
 }
 
 .user-input .user-submit .login-form__input_big::placeholder {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
   font-size: 14px;
   line-height: 17px;
-  letter-spacing: -0.015em;
-  color: #2F4858;
-  vertical-align: top;
 }
 
 .user-input .user-submit .explain-text {
@@ -796,7 +803,7 @@
     text-align: left;
   }
   .user-input .user-submit .checkbox-form .checkbox-label {
-    margin: 0 2em 0 2em;
+    margin: 0 -3em 0 2em;
     width: 572px;
     top: 0%;
   }
@@ -866,7 +873,6 @@
 
 .footer .inner-container-second .child-inner-content .d-lg-none {
   padding: 30px 0 0;
-  background: url(.png);
 }
 
 .footer .inner-container-second .child-inner-content .d-none {
@@ -939,7 +945,7 @@
             transform: rotate(-180deg);
   }
   .footer .inner-container-second {
-    background-image: url(/assets/img/footer-second.png);
+    background-image: url(https://gustavsiljuconoks.github.io/Task_2_Gustavs_I-ju-onoks/assets/img/footer-second.png);
     height: auto;
     width: 100%;
     position: relative;
@@ -977,6 +983,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .footer .inner-container-second .parent-inner-content .child-inner-content .footer-text-container #footer-item {
     padding: 1em 2em;
@@ -994,6 +1003,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: auto;
   }
   .footer .inner-container-second .parent-inner-content .child-inner-content .footer-text-container .footer-menu .footer-list li {
     list-style: none;

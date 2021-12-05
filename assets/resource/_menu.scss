@@ -19,7 +19,7 @@
         @include aFonts(0, 0);
     }
     a:hover {
-        font-weight: 600;
+        font-weight: 700;
         border-bottom: 3px solid $letterColorOrange;
         padding-bottom: 3px;
     }
@@ -63,7 +63,6 @@
         .languages {
             position: absolute;
             right: 7%;
-            // margin-right: 22em;
             .en,
             .ru {
                 display: none;

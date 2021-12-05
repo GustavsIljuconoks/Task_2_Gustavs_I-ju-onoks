@@ -13,19 +13,16 @@
     }
     .meita-alina-photo {
         float: left;
-        // meita photos
         .meita-mobile {
             display: block;
             margin: 0;
             padding: 0;
             width: 136px;
             height: 82px;
-            background: url(.jpg);
         }
         .meita-desktop {
             display: none;
         }
-        // alina photos
         .alina-mobile {
             display: block;
             margin: 0;
@@ -39,7 +36,6 @@
     }
     .anda-photo {
         float: right;
-        // anda photos
         .anda-mobile {
             display: block;
             margin: 0;
@@ -52,7 +48,6 @@
         }
     }
     .inner-photo-container-two {
-        // zanda photos
         .zanda-mobile {
             float: left;
             width: 168px;
@@ -63,7 +58,6 @@
         .zanda-desktop {
             display: none;
         }
-        // sibilla photos
         .sibilla-mobile {
             float: right;
             height: 183px;
@@ -100,7 +94,6 @@
             float: right;
             .meita-alina-photo {
                 float: left;
-                // meita photos
                 .meita-mobile {
                     display: none!important
                 }
@@ -109,7 +102,6 @@
                     width: 298px;
                     height: 180px;
                 }
-                // alina photos
                 .alina-mobile {
                     display: none!important;
                 }
@@ -121,9 +113,9 @@
             }
             .anda-photo {
                 float: right;
-                // anda photos
                 .anda-mobile {
                     display: none!important;
+                    height: 167px;
                 }
                 .anda-desktop {
                     display: block!important;
@@ -134,7 +126,6 @@
         }
         .inner-photo-container-two {
             float: left;
-            // zanda photos
             .zanda-mobile {
                 display: none!important;
             }
@@ -143,7 +134,6 @@
                 width: 328px;
                 height: 355px;
             }
-            // sibilla photos
             .sibilla-mobile {
                 display: none!important;
             }

@@ -12,8 +12,8 @@ $letterColorBorder: #dddddd;
     text-align: center;
     text-decoration: none;
     color: #000000;
-    font-size: null;
-    line-height: null;
+    font-size: $fontSize;
+    line-height: $lineHeight;
 }
 
 @mixin FlexCenter {
@@ -48,4 +48,17 @@ $letterColorBorder: #dddddd;
     line-height: 36px;
     text-align: center;
     color: $letterColorGrey;
+}
+
+@mixin placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    line-height: 17px;
 }
