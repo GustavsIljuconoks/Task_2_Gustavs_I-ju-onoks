@@ -16,7 +16,7 @@
         padding: 1em 1em;
     }
     a {
-        @include aFonts(0, 0);
+        @include aFonts();
     }
     a:hover {
         font-weight: 700;
